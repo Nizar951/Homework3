@@ -21,5 +21,6 @@ function App() {
     </div>
   );
 }
-
+const key = process.env.REACT_APP_SPOTIFY_KEY;
+console.log(key);
 export default App;
